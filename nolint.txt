@@ -1,0 +1,4 @@
+@nolint
+
+(The text linter shouldn't trigger for this line, because the file contains "@nolint".)
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM

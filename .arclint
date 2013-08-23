@@ -20,6 +20,30 @@
     "csslint" : {
       "type" : "csslint",
       "include" : "(\\.css$)"
+    },
+    "text" : {
+      "type" : "text",
+      "include" : "(\\.txt$)"
+    },
+    "ruby" : {
+      "type" : "ruby",
+      "include" : "(\\.rb$)"
+    },
+    "filename" : {
+      "type" : "filename",
+      "include" : "(.*)"
+    },
+    "spelling" : {
+      "type" : "spelling",
+      "include" : "(.*)"
+    },
+    "nolint" : {
+      "type" : "nolint",
+      "include" : "(.*)"
+    },
+    "generated" : {
+      "type" : "generated",
+      "include" : "(.*)"
     }
   }
 }
