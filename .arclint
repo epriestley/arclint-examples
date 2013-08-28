@@ -44,6 +44,14 @@
     "generated" : {
       "type" : "generated",
       "include" : "(.*)"
+    },
+    "phpcs" : {
+      "type" : "phpcs",
+      "include" : "(\\.php)",
+      "severity.rules" : {
+        "(^PHPCS\\.E\\.)" : "warning",
+        "(^PHPCS\\.W\\.)" : "advice"
+      }
     }
   }
 }
